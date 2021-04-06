@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import ReduxEx from './reduxjs/ReduxEx'
 
 
 export default class App extends Component {
@@ -7,6 +7,7 @@ export default class App extends Component {
         return (
             <div>
                 hellow it is index page 
+                <ReduxEx />
             </div>
         )
     }
